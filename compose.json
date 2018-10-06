@@ -1,0 +1,25 @@
+{
+    "name": "awa-yii2-mailqueue",
+    "description": "Yii 2 Basic Project Template",
+    "keywords": ["yii2", "redis", "async", "mailer"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/suzhiwang98/awa-yii2-mailqueue/issues",
+        "forum": "www.awasu.club",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "source": "https://github.com/suzhiwang98/awa-yii2-mailqueue"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-redis": "~2.0.0"
+    },
+    "authload":{
+        "psr-4":{
+            "doctorsu\\mailerqueue\\":"src/"
+        }
+    },
+}
